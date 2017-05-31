@@ -1,0 +1,28 @@
+{
+  "name": "sphido/parsers",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.sphido.org",
+  "description": "",
+  "authors": [
+    {
+      "name": "Roman Ožana",
+      "homepage": "https://www.omdesign.cz/",
+      "email": "ozana@omdesign.cz"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/sphido/parsers/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "parsers\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "nette/tester": "*"
+  }
+}

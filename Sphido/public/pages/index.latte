@@ -1,0 +1,110 @@
+<!--
+id: home
+menu: Home
+title: Sphido: A rocket fast flat file CMS
+description: Sphido is a rocket fast flat file CMS written in PHP. Supports Markdown, HTML, PHTML content. Fully customisable with Latte templates
+class: home
+order: 1
+-->
+
+{block header}
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+				<div class="logo">
+					<img src="{url 'img/sphido.svg'}" alt="Sphido Logo" class="img-responsive"/>
+					<h1>A rocket fast, lightweight, flat file CMS for PHP</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<a class="btn btn-download" href="/download" onClick="ga('send', 'event', 'download', 'click', 'Download Sphido CMS');">{include '../img/download.svg'} Download</a>
+		</div>
+	</div>
+{/block}
+
+{block content}
+	<div class="row">
+		<div class="col-md-4">
+			<div class="box">
+				{include '../img/pencil.svg'}
+				<h2 class="h3">Deathly simple</h2>
+				<p>
+					Few lines of PHP code without dependency hell.
+					Simple <a href="https://github.com/sphido/config" target="_blank">configuration</a> and file structure.
+					Easy to hacking, easy to change.
+				</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="box">
+				{include '../img/markdown.svg'}
+				<h2 class="h3">Markdown or HTML</h2>
+				<p>
+					Use <a href="/example/markdown">Markdown</a>, <a href="/example/html">HTML</a>, <a
+									href="/example/phtml">PHTML</a> or <a href="/example/latte">Latte</a> whatever you need.
+
+				</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="box">
+				{include '../img/latte.svg'}
+				<h2 class="h3">Latte templates</h2>
+				<p>
+					Free your creativity with <a href="https://github.com/nette/latte" target="_blank">Latte templating
+						engine</a>. You can have custom templates for each page.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="box">
+				{include '../img/fast.svg'}
+				<h2 class="h3">Blazing fast</h2>
+				<p>Sphido is blazing fast <strong>flat files CMS</strong>. Reaches speeds around 30&nbsp;milliseconds per
+					request (with
+					cache enabled on PHP 5.6).</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="box">
+				{include '../img/box.svg'}
+				<h2 class="h3">Extensible</h2>
+				<p>Sphido is easily extensible. You can add your custom function to <a
+									href="https://github.com/sphido/cms/blob/master/public/functions.php"
+									target="_blank">functions.php</a> or add routes handler to <a
+									href="https://github.com/sphido/cms/blob/master/public/index.php" target="_blank">index.php</a>.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="box">
+				{include '../img/github.svg'}
+				<h2 class="h3">Free and Open</h2>
+				<p>
+					Sphido is <a href="https://github.com/sphido/cms" target="_blank">open source</a> under BSD-3-Clause license.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--
+	Full Version Control
+	Everything, from content to config, can be version controlled.
+	-->
+{/block}
+
+
+{block footer}
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<p>
+					Made with {include '../img/heart.svg'} on Mac by <a href="http://www.omdesign.cz">Roman Ožana</a>
+				</p>
+			</div>
+		</div>
+	</div>
+{/block}

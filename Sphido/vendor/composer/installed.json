@@ -1,0 +1,487 @@
+[
+    {
+        "name": "latte/latte",
+        "version": "v2.4.3",
+        "version_normalized": "2.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nette/latte.git",
+            "reference": "b62ee346467e1e2402a43c499cf6047fddc5d321"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nette/latte/zipball/b62ee346467e1e2402a43c499cf6047fddc5d321",
+            "reference": "b62ee346467e1e2402a43c499cf6047fddc5d321",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "ext-tokenizer": "*",
+            "php": ">=5.4.4"
+        },
+        "conflict": {
+            "nette/application": "<2.4.1"
+        },
+        "require-dev": {
+            "nette/tester": "~2.0",
+            "tracy/tracy": "^2.3"
+        },
+        "suggest": {
+            "ext-fileinfo": "to use filter |datastream",
+            "ext-mbstring": "to use filters like lower, upper, capitalize, ...",
+            "ext-xml": "to use filters like length, substring, ..."
+        },
+        "time": "2017-01-19T11:06:59+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "GPL-2.0",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            },
+            {
+                "name": "Nette Community",
+                "homepage": "https://nette.org/contributors"
+            }
+        ],
+        "description": "Latte: the amazing template engine for PHP",
+        "homepage": "https://latte.nette.org",
+        "keywords": [
+            "templating",
+            "twig"
+        ]
+    },
+    {
+        "name": "erusev/parsedown",
+        "version": "1.6.1",
+        "version_normalized": "1.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/erusev/parsedown.git",
+            "reference": "20ff8bbb57205368b4b42d094642a3e52dac85fb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/erusev/parsedown/zipball/20ff8bbb57205368b4b42d094642a3e52dac85fb",
+            "reference": "20ff8bbb57205368b4b42d094642a3e52dac85fb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-11-02T15:56:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Parsedown": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Emanuil Rusev",
+                "email": "hello@erusev.com",
+                "homepage": "http://erusev.com"
+            }
+        ],
+        "description": "Parser for Markdown.",
+        "homepage": "http://parsedown.org",
+        "keywords": [
+            "markdown",
+            "parser"
+        ]
+    },
+    {
+        "name": "sphido/json",
+        "version": "v0.0.1",
+        "version_normalized": "0.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/json.git",
+            "reference": "937b5632c8e9ba663b434f18a30535ae23e789c2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/json/zipball/937b5632c8e9ba663b434f18a30535ae23e789c2",
+            "reference": "937b5632c8e9ba663b434f18a30535ae23e789c2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2015-05-17T20:50:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/json.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ožana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "http://www.omdesign.cz/"
+            }
+        ],
+        "description": "Basic functions for handling JSON format",
+        "homepage": "http://www.sphido.org",
+        "keywords": [
+            "json"
+        ]
+    },
+    {
+        "name": "sphido/download",
+        "version": "0.0.1",
+        "version_normalized": "0.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/download.git",
+            "reference": "9dc02aff57e7fd8fcf2eebf4a9ec70897e9a8e78"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/download/zipball/9dc02aff57e7fd8fcf2eebf4a9ec70897e9a8e78",
+            "reference": "9dc02aff57e7fd8fcf2eebf4a9ec70897e9a8e78",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.6"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2015-05-16T04:45:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/download.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ožana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "http://www.omdesign.cz/"
+            }
+        ],
+        "description": "Download file easly",
+        "homepage": "http://www.sphido.org",
+        "keywords": [
+            "download",
+            "file"
+        ]
+    },
+    {
+        "name": "sphido/http",
+        "version": "v0.0.1",
+        "version_normalized": "0.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/http.git",
+            "reference": "99ac726eae801341342c3e15e9d99685f7fbc705"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/http/zipball/99ac726eae801341342c3e15e9d99685f7fbc705",
+            "reference": "99ac726eae801341342c3e15e9d99685f7fbc705",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2015-05-20T05:17:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/http.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ožana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "http://www.omdesign.cz/"
+            }
+        ],
+        "description": "HTTP basics functions",
+        "homepage": "http://www.sphido.org",
+        "keywords": [
+            "http"
+        ]
+    },
+    {
+        "name": "sphido/config",
+        "version": "v2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/config.git",
+            "reference": "0d5d4a6e1dad2d85191b4ffea20ddbc82d33299f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/config/zipball/0d5d4a6e1dad2d85191b4ffea20ddbc82d33299f",
+            "reference": "0d5d4a6e1dad2d85191b4ffea20ddbc82d33299f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2016-06-04T13:05:59+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/config.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ožana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "http://www.omdesign.cz/"
+            }
+        ],
+        "description": "Fastest config ever",
+        "homepage": "http://www.sphido.org",
+        "keywords": [
+            "config"
+        ]
+    },
+    {
+        "name": "sphido/parsers",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/parsers.git",
+            "reference": "1fa078344186ab170e8a14fe9abe8c2cc956ba62"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/parsers/zipball/1fa078344186ab170e8a14fe9abe8c2cc956ba62",
+            "reference": "1fa078344186ab170e8a14fe9abe8c2cc956ba62",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2016-11-28T12:28:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "parsers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ožana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "https://www.omdesign.cz/"
+            }
+        ],
+        "homepage": "https://www.sphido.org"
+    },
+    {
+        "name": "sphido/routing",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/routing.git",
+            "reference": "9faeade2514ffa2ef1b86ea8fa6e8afd14c09265"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/routing/zipball/9faeade2514ffa2ef1b86ea8fa6e8afd14c09265",
+            "reference": "9faeade2514ffa2ef1b86ea8fa6e8afd14c09265",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2016-06-04T11:07:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/routing.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ožana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "http://www.omdesign.cz/"
+            }
+        ],
+        "description": "PHP hyper ultra simple and mega fast route => callback mapper",
+        "homepage": "http://www.sphido.org",
+        "keywords": [
+            "api",
+            "mapper",
+            "rest",
+            "router",
+            "routing"
+        ]
+    },
+    {
+        "name": "sphido/events",
+        "version": "v0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/events.git",
+            "reference": "18b641d36124f9262a3a72793353f68e72533a82"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/events/zipball/18b641d36124f9262a3a72793353f68e72533a82",
+            "reference": "18b641d36124f9262a3a72793353f68e72533a82",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2016-11-28T15:36:56+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/events.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ozana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "https://www.omdesign.cz"
+            }
+        ],
+        "description": "Super simple event dispatching library for PHP",
+        "homepage": "https://www.sphido.org",
+        "keywords": [
+            "Simple",
+            "event",
+            "filter",
+            "handle",
+            "trigger"
+        ]
+    },
+    {
+        "name": "sphido/url",
+        "version": "v0.0.2",
+        "version_normalized": "0.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sphido/url.git",
+            "reference": "e3d345eeb0928c0cd516a81aba097c60da091b59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sphido/url/zipball/e3d345eeb0928c0cd516a81aba097c60da091b59",
+            "reference": "e3d345eeb0928c0cd516a81aba097c60da091b59",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.6"
+        },
+        "require-dev": {
+            "nette/tester": "*"
+        },
+        "time": "2015-08-09T22:14:13+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/url.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Ožana",
+                "email": "ozana@omdesign.cz",
+                "homepage": "http://www.omdesign.cz/"
+            }
+        ],
+        "description": "Simple and fast PHP library to parse and manipulate with URLs.",
+        "homepage": "http://www.sphido.org",
+        "keywords": [
+            "url"
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "sphido/events",
+  "description": "Super simple event dispatching library for PHP",
+  "keywords": [
+    "event",
+    "simple",
+    "handle",
+    "trigger",
+    "filter"
+  ],
+  "homepage": "https://www.sphido.org",
+  "license": ["BSD-3-Clause"],
+  "authors": [
+    {
+      "name": "Roman Ozana",
+      "homepage": "https://www.omdesign.cz",
+      "email": "ozana@omdesign.cz"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/events.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "nette/tester": "*"
+  }
+}

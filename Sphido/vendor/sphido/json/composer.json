@@ -1,0 +1,30 @@
+{
+  "name": "sphido/json",
+  "keywords": [
+    "json"
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "http://www.sphido.org",
+  "description": "Basic functions for handling JSON format",
+  "authors": [
+    {
+      "name": "Roman Ožana",
+      "homepage": "http://www.omdesign.cz/",
+      "email": "ozana@omdesign.cz"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/sphido/json/issues"
+  },
+  "autoload": {
+    "files": [
+      "src/json.php"
+    ]
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "nette/tester": "*"
+  }
+}

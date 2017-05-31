@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  backend:
+    image: nginx
+    expose:
+      - "3000"
+    volumes:
+      - "./Sphido:/var/www/project"
